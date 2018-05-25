@@ -7,6 +7,15 @@
   <packaging>pom</packaging>
   <name>Safwan Global</name>
   <description>Safwan Global Solution</description>
+      <build>
+        <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.3.0.603</version>
+            </plugin>
+        </plugins>
+    </build>
   <modules>
   	<module>safwan-data</module>
   	<module>safwan-service</module>

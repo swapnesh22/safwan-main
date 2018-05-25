@@ -39,7 +39,6 @@ public class CalllogDaoImpl implements CalllogDao {
 	}
 
 	public void saveOrUpdate(Calllog calllog) {
-		System.out.println("Inside saveOrUpdate");
 		getSession().saveOrUpdate(calllog);		
 		
 	}
